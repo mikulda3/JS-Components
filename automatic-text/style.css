@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0b6b6;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  box-shadow: 5px 5px black;
+  position: absolute;
+  bottom: 30px;
+  background: #de9b9b;
+  padding: 10px 15px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+input {
+  width: 60px;
+  padding: 3px;
+  font-size: 18px;
+  background: #e0b6b6;
+  border: 1px solid black;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
